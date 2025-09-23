@@ -13,4 +13,4 @@ Shift Baru  : D
 ![Screenshot Tugas 1](https://github.com/elsameiilia/praktikum-mobile/blob/main/docs/tugas1.png)
 
 ## Tugas 2 Pertemuan 3
-![Demo Navigasi] (docs/0923.gif)
+![Demo Navigasi](docs/0923.gif)
