@@ -14,3 +14,6 @@ Shift Baru  : D
 
 ## Tugas 2 Pertemuan 3
 ![Demo Navigasi](docs/0923.gif)
+
+## Tugas 3 Pertemuan 4
+![Demo Data](docs/tugas3.gif)
