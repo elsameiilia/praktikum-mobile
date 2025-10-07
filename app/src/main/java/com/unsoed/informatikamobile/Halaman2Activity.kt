@@ -29,6 +29,11 @@ class Halaman2Activity : AppCompatActivity() {
             it.tvLayout.setText(R.string.ig_himpunan)
         }
 
+        binding.layoutBuku.let {
+            it.imgIcon.setImageResource(R.drawable.ic_book)
+            it.tvLayout.setText("Koleksi Buku")
+        }
+
         binding.layoutPhone.let {
             it.imgIcon.setImageResource(R.drawable.ic_phone)
             it.tvLayout.setText(R.string.telepon)
@@ -60,6 +65,10 @@ class Halaman2Activity : AppCompatActivity() {
                 data = "tel:${getString(R.string.telepon)}".toUri()
             }
             startActivity(intent)
+        }
+
+        binding.layoutBuku.root.setOnClickListener {
+            startActivity(Intent(this, DaftarBukuActivity::class.java))
         }
 
         binding.btnBack.setOnClickListener {

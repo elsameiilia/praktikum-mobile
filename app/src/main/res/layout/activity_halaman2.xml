@@ -121,6 +121,15 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="4dp">
                 </include>
+
+                <include
+                    android:id="@+id/layout_buku"
+                    layout="@layout/layout_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp">
+                </include>
             </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
